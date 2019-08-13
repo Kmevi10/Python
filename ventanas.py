@@ -1,0 +1,11 @@
+import tkinter as tk
+ventana=tk.Tk()
+ventana.title("QuickLine")
+ventana.geometry("700x450")
+ventana.configure(background="gold")
+margentop = tk.Label(ventana,text="", font="Gidole", bg="gold", fg="black")
+margentop.pack(pady=60)
+etiqueta1 = tk.Label(ventana,text="¿Qué quiere de beber?", font="Gidole", bg="gold", fg="black")
+etiqueta1.pack()
+input1 = tk.Entry(ventana,text="Bebida aquí")
+input1.pack(pady=20)
